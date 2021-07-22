@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <meta http-equiv="x-ua-compatible" content="IE-edge">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <title>how to build length converter using javascript</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container>
+    <div class="center width">
+         <h2>Length converter</h2>
+         <p>Type a value in any of the fields to convert between length measurements:</p>
+    </div>
+      <div class="length-converter">
+        <div class="fields">
+          <div class="field">
+              <label>CM:</label>
+                  <input type="number" placeholder="cm" id="inputcm" oninput="lengthconverter(this.id,this.value)" onchange="lengthconverter"(this.id,this.value)">
+          </div>
+          <div class="field">
+              <label>Inches:</label>
+                  <input type="number" placeholder="inches" id="inputinches" oninput="lengthconverter(this.id,this.value)" onchange="lengthconverter"(this.id,this.value)"
+          </div>
+          <div class="field">
+              <label>Feet: </label>
+                  <input type="number" placeholder="feet" id="inputfeet" oninput="lengthconverter(this.id,this.value)" onchange="lengthconverter"(this.id,this.value)">
+          </div>
+          <div class="field">
+              <label>meters:</label>
+                  <input type="number" placeholder="meters" id="inputmeters" oninput="lengthconverter(this.id,this.value)" onchange="lengthconverter"(this.id,this.value)">
+          </div>
+          <div class="field">
+              <label>kilometers:</label>
+                  <input type="number" placeholder="kilometers" id="kilometers" oninput="lengthconverter(this.id,this.value)" onchange="lengthconverter"(this.id,this.value)">
+          </div>
+          <script src="main.js"></script>
+          <body>
+<\html>
+
+
+
